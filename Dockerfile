@@ -7,7 +7,6 @@ WORKDIR workspace
 COPY . .
 
 RUN pip install -r src/requirements.txt
-RUN pip install jupyter
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
 

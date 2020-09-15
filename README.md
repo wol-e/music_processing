@@ -4,10 +4,10 @@
 
 Initially run in the root directory (where the Dockerfile is):
 
-`docker build -t "processing_music" .`
+`docker build -t "music_processing" .`
 
 If you want to run a jupyter notebook within docker and acces it from your brwoser you can do so with
-`docker run -p 8888:8888 -v </path/to/jupyter_docker/src>:/src processing_music`
+`docker run -p 8888:8888 -v </path/to/this/directory>:/workspace music_processing`
 
 After executing this, you will see some instructions like this:
 

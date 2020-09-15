@@ -1,6 +1,8 @@
-# What Do I wnt to achieve here?
+# What Do I want to achieve here?
 
-1) first structure and docker - Done
+1) first structure - Done
+
+2) Docker
 
 2) midi setup
 
@@ -9,3 +11,8 @@
 4) ??? 
 
 General direction: Would love to create compositions from machine learning
+
+
+# TODO's
+
+- rename docker stuff from 'processing_music'to 'music_processing' - Done
